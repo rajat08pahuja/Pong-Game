@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    height: 80vh;
+    width: 85vw;
+    background-color: #1a0d52;
+    border-radius: 10px;
+}
+.ball{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fe5196;
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+}
+.paddle{
+    width: 15px;
+    height: 120px;
+    background-color: #fe5196;
+    position: fixed;
+}
+.left{
+    top: 40vh;
+    left: 12vw;
+}
+.right{
+    top : 40vh;
+    right: 12vw;
+}
+.fa-circle{
+    color: #ffbe76;
+    font-size: 2rem;
+}
+.scoreboard{
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 1 1;
+}
+.separator{
+    width: 4px;
+    height: 70%;
+    background-color: black;
+}
